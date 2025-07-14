@@ -12,6 +12,8 @@
 
 ### High Level Architecture Diagram
 <img width="517" height="403" alt="image" src="https://github.com/user-attachments/assets/759cdf71-ec8d-481c-89d0-11d668ce095e" />
+
+### Detail Diagram
 <img width="589" height="631" alt="image" src="https://github.com/user-attachments/assets/dc6041c8-99e5-498e-8070-7d7f6ead9118" />
 
 
