@@ -16,8 +16,13 @@
 ### Detail Diagram
 <img width="589" height="631" alt="image" src="https://github.com/user-attachments/assets/dc6041c8-99e5-498e-8070-7d7f6ead9118" />
 
+### 내가 기여한 부분
+- 시나리오 설계, High Level Architecture Diagram 구상
+- patrol node 구현 후 코드 설계 및 통합
+- log창과 terminal창을 synchronize하여 database처리
 
-7. 핵심 기능 (코드로 보여주거나 코드 링크)
+
+### 핵심 기능 (코드로 보여주거나 코드 링크)
    -Detection 부분에서 문제 발생 시 원인을 명확히 분석하고,
     QoS 최적화 및 프레임 처리 개선 등 실질적인 성능 향상을
     이끌어냈다.
