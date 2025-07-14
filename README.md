@@ -3,7 +3,7 @@
 <h2 align="center">진돗봇🐕 </h2>
 
 ### 제작 기간 & 참여 인원
--05/23~06/05  5명
+-2025/05/23~2025/06/05  5명
 ### 사용한 기술 (기술 스택)    
 <img src="https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=white">   <img src="https://img.shields.io/badge/ROS2-black?style=for-the-badge&logo=ros&logoColor=#22314E">   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">   <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white">   <img src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white">    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">   <img src="https://img.shields.io/badge/Flask-3BABC3?style=for-the-badge&logo=flask&logoColor=white">   Flask, opencv, yolov8, sqlite3, ros2, python3
 ### High Level Architecture Diagram
