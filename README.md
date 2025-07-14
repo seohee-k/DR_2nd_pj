@@ -119,15 +119,23 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 
 
 1-1. 이를 개선하기 위해 Qos를 최적화시키며 최신 이미지만 처리하도록 qos_profile_sensor_data를 실행하고 callback간 경쟁 없이 독립적으로 순차 실행 시키기 위해 MutuallyExclusiveCallbackGroup을 활용.
+
+
 1-2. 객체 인식 좌표가 이전 좌표와 다를 때만 publish하게 만들어 필요한 값의 publish만 받을 수 있도록 하고모든 이미지를 추론하지 않고 3프레임 중 1개만 처리하도록 함.
 
 
 2-1. employee를 발견시 publish되는 좌표들의 평균값을 저장하도록 함.
+
+
 2-2. amr의 시야가 다른곳을 향하여 해당 좌표가 3초간 publish되지 않을 시 좌표들의 평균값을 저장.
 
 
 3-1. check_same_thread=False를 추가해 멀티스레드 안전성을 높임.
+
+
 3-2. 예외 처리도 강화해 데이터베이스저장 실패 시 로그에 오류 기록.
+
+
 3-3. monitor_logs에서 SocketIO 추가로 실시간 로그 전송 로직을 통합.
 
 
