@@ -6,7 +6,7 @@
 3. 제작 기간 & 참여 인원     05/23~06/05  5명
 4. 사용한 기술 (기술 스택)    Flask, opencv, yolov8, sqlite3, ros2, python3
 5. (필요한 경우) ERD
-6. <img width="589" height="631" alt="image" src="https://github.com/user-attachments/assets/46848ab4-f926-493d-8f38-3a632a267634" />
+<img width="517" height="403" alt="image" src="https://github.com/user-attachments/assets/759cdf71-ec8d-481c-89d0-11d668ce095e" />
 <img width="589" height="631" alt="image" src="https://github.com/user-attachments/assets/dc6041c8-99e5-498e-8070-7d7f6ead9118" />
 
 
