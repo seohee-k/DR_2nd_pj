@@ -1,6 +1,6 @@
 <h1 align="center">SLAM 기반 자율 이동 로봇(AMR) 순찰 및 보안 시스템 </h1>
 
-<h2 align="center">진돗봇 </h2>
+<h2 align="center">🐕진돗봇 </h2>
 
 2. Demo 링크                 첨부예정
 3. 제작 기간 & 참여 인원     05/23~06/05  5명
