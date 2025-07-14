@@ -78,6 +78,7 @@ amr의 시야가 다른곳을 향하여 해당 좌표가 3초간 publish되지 �
 
 -check_same_thread=False를 추가해 멀티스레드 안전성을 높임.
 예외 처리도 강화해 데이터베이스저장 실패 시 로그에 오류 기록.
+monitor_logs에서 SocketIO 추가로 실시간 로그 전송 로직을 통합.
 
 
 9. 회고 / 느낀 점
