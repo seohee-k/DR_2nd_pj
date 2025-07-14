@@ -55,21 +55,13 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 ### 1. 시나리오 설계, High Level Architecture Diagram 구상
 
 
--SLAM, navigate등을 사용 시에 로봇이 어떤 기준과 방향으로 map을 인식할지 결정
-
-
 
 
 ### 2. Patrol fire 구현 후 코드 설계 및 통합
 
 
--Turtlebot4A,B가 정기 순찰시 YOLO로 employee들의 좌표를 인식해서 저장 후, exit의 좌표도 저장, 침입자 실시간 감지. 문제 없을 시에만 다음 waypoint로 이동
-
-
 -Turtlebot4가 fire detect시 fire 좌표 저장 후 공유 및 fire_flag 발신 후 fire extinguish를 사용해 화재진압
 
-
--화재 감지를 못 한 Turtlebot4는 저장된 직원 위치를 바탕으로 대피 유도 후 exit 봉쇄(침입자 도주 차단)
 
 
 -화재 진압을 마친 Turtlebot4가 잔류 employee확인 후 침입자(방화범)을 tracking하여 단계별 대응 
