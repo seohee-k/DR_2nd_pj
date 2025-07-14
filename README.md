@@ -7,7 +7,7 @@
 4. 사용한 기술 (기술 스택)    Flask, opencv, yolov8, sqlite3, ros2, python3
 5. (필요한 경우) ERD
 6. <img width="682" height="532" alt="image" src="https://github.com/user-attachments/assets/46848ab4-f926-493d-8f38-3a632a267634" />
-   <img width="589" height="631" alt="image" src="https://github.com/user-attachments/assets/8e55cd30-1da8-4716-8269-09322aea876c" />
+   <img width="682" height="532" alt="image" src="https://github.com/user-attachments/assets/8e55cd30-1da8-4716-8269-09322aea876c" />
 
 7. 핵심 기능 (코드로 보여주거나 코드 링크)
    -Detection 부분에서 문제 발생 시 원인을 명확히 분석하고,
