@@ -1,0 +1,9 @@
+[0.018s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_ignition_gui_plugins -- -j22 -l22
+[0.213s] [ 16%] [34m[1mAutomatic MOC for target Turtlebot4Hmi[0m
+[1.954s] [ 16%] Built target Turtlebot4Hmi_autogen
+[1.964s] [ 33%] [34m[1mGenerating qrc_Turtlebot4Hmi.cpp[0m
+[1.988s] [ 50%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/qrc_Turtlebot4Hmi.cpp.o[0m
+[1.989s] [ 83%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi.cc.o[0m
+[1.989s] [ 83%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi_autogen/mocs_compilation.cpp.o[0m
+[7.935s] [100%] [32m[1mLinking CXX shared library libTurtlebot4Hmi.so[0m
+[8.227s] [100%] Built target Turtlebot4Hmi

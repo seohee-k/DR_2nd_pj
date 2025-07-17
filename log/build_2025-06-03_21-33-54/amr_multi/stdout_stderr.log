@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing amr_multi.egg-info/PKG-INFO
+writing dependency_links to amr_multi.egg-info/dependency_links.txt
+writing entry points to amr_multi.egg-info/entry_points.txt
+writing requirements to amr_multi.egg-info/requires.txt
+writing top-level names to amr_multi.egg-info/top_level.txt
+reading manifest file 'amr_multi.egg-info/SOURCES.txt'
+writing manifest file 'amr_multi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/djqsp2/rokey3_E4_ws/install/amr_multi/lib/python3.10/site-packages/amr-multi.egg-link (link to .)
+Installing amr_master script to /home/djqsp2/rokey3_E4_ws/install/amr_multi/lib/amr_multi
+Installing yolo_fake_publisher script to /home/djqsp2/rokey3_E4_ws/install/amr_multi/lib/amr_multi
+
+Installed /home/djqsp2/rokey3_E4_ws/build/amr_multi

@@ -1,0 +1,43 @@
+[0.036s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/my_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/my_interface
+[0.042s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.162s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.191s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.194s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.232s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.240s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.438s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.778s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.793s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.793s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.793s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.808s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.814s] -- Added test 'lint_cmake' to check CMake code style
+[0.814s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done
+[0.833s] -- Generating done
+[0.841s] -- Build files have been written to: /home/djqsp2/rokey3_E4_ws/build/my_interface
+[1.024s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/my_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/my_interface
+[1.025s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/my_interface -- -j22 -l22
+[1.223s] failed to create symbolic link '/home/djqsp2/rokey3_E4_ws/build/my_interface/ament_cmake_python/my_interface/my_interface' because existing path cannot be removed: Is a directory
+[1.223s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_interface] Error 1
+[1.223s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_interface.dir/all] Error 2
+[1.223s] gmake[1]: *** Waiting for unfinished jobs....
+[1.223s] gmake: *** [Makefile:146: all] Error 2
+[1.223s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_generator_c[0m
+[1.223s] [  3%] Built target my_interface__cpp
+[1.223s] [ 12%] Built target my_interface__rosidl_generator_c
+[1.224s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_cpp[0m
+[1.224s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_cpp[0m
+[1.224s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.224s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_c[0m
+[1.224s] [ 22%] Built target my_interface__rosidl_typesupport_introspection_cpp
+[1.224s] [ 32%] Built target my_interface__rosidl_typesupport_cpp
+[1.224s] [ 41%] Built target my_interface__rosidl_typesupport_fastrtps_cpp
+[1.224s] [ 51%] Built target my_interface__rosidl_typesupport_fastrtps_c
+[1.231s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/my_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/my_interface -- -j22 -l22

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c5da5d7c755cb15bd24e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "yoloinference__py",
+					"jsonFile" : "directory-yoloinference__py-c639e3a63bd91f42844a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/djqsp2/rokey3_E4_ws/build/yoloinference/yoloinference__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yoloinference",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yoloinference_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yoloinference_egg-35d5dc36b00d61a95c6c.json",
+					"name" : "ament_cmake_python_build_yoloinference_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_yoloinference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_yoloinference-c2ce5a7b252bfe0d6844.json",
+					"name" : "ament_cmake_python_symlink_yoloinference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-29cb5a600f38a04407a9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference-137a132ecbc2872e6c9c.json",
+					"name" : "yoloinference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__cpp-63aad8e5d3a91dd0c3be.json",
+					"name" : "yoloinference__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yoloinference__py::@f5b1299bcd3bcd5e028d",
+					"jsonFile" : "target-yoloinference__py-1dd4264ceaf6a630157e.json",
+					"name" : "yoloinference__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_generator_c-db6e002a2881f062dc40.json",
+					"name" : "yoloinference__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_generator_py-71a5bae6f3e83fdb3712.json",
+					"name" : "yoloinference__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_c-e5c36ae53407222cf247.json",
+					"name" : "yoloinference__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_c__pyext-e34c31c81de385d73a06.json",
+					"name" : "yoloinference__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_cpp-4500e497918c9b4c2311.json",
+					"name" : "yoloinference__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_fastrtps_c-12abd51b278f346d8861.json",
+					"name" : "yoloinference__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_fastrtps_c__pyext-564033fd6854db87e4f5.json",
+					"name" : "yoloinference__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_fastrtps_cpp-adf46fb29b301420f7ff.json",
+					"name" : "yoloinference__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_introspection_c-9d23923f7843c414000d.json",
+					"name" : "yoloinference__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_introspection_c__pyext-e785c24a42f590234166.json",
+					"name" : "yoloinference__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference__rosidl_typesupport_introspection_cpp-a9f0eb69931ff12129e6.json",
+					"name" : "yoloinference__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoloinference_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoloinference_uninstall-ebaa8a7a5ba44ff4d1a2.json",
+					"name" : "yoloinference_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/djqsp2/rokey3_E4_ws/build/yoloinference",
+		"source" : "/home/djqsp2/rokey3_E4_ws/src/yoloinference"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

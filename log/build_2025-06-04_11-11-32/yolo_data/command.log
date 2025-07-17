@@ -1,0 +1,4 @@
+Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yolo_data -- -j22 -l22
+Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yolo_data -- -j22 -l22
+Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yolo_data
+Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yolo_data

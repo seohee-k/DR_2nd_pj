@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (-) JobUnselected: {'identifier': 'amr_multi'}
+[0.000246] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000267] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000287] (-) JobUnselected: {'identifier': 'patrol'}
+[0.000308] (-) JobUnselected: {'identifier': 'turtlebot4_cpp_tutorials'}
+[0.000324] (-) JobUnselected: {'identifier': 'turtlebot4_description'}
+[0.000340] (-) JobUnselected: {'identifier': 'turtlebot4_desktop'}
+[0.000356] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_bringup'}
+[0.000373] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_gui_plugins'}
+[0.000389] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_toolbox'}
+[0.000404] (-) JobUnselected: {'identifier': 'turtlebot4_msgs'}
+[0.000420] (-) JobUnselected: {'identifier': 'turtlebot4_navigation'}
+[0.000436] (-) JobUnselected: {'identifier': 'turtlebot4_node'}
+[0.000452] (-) JobUnselected: {'identifier': 'turtlebot4_openai_tutorials'}
+[0.000468] (-) JobUnselected: {'identifier': 'turtlebot4_python_tutorials'}
+[0.000485] (-) JobUnselected: {'identifier': 'turtlebot4_simulator'}
+[0.000502] (-) JobUnselected: {'identifier': 'turtlebot4_tutorials'}
+[0.000518] (-) JobUnselected: {'identifier': 'turtlebot4_viz'}
+[0.000534] (-) JobUnselected: {'identifier': 'yolo_data'}
+[0.000551] (-) JobUnselected: {'identifier': 'yoloinference'}
+[0.000571] (my_interface) JobQueued: {'identifier': 'my_interface', 'dependencies': OrderedDict()}
+[0.000591] (my_interface) JobStarted: {'identifier': 'my_interface'}
+[0.033475] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'cmake'}
+[0.033763] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/djqsp2/rokey3_E4_ws/src/my_interface', '-DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/my_interface'], 'cwd': '/home/djqsp2/rokey3_E4_ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'djqsp2'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/djqsp2'), ('OLDPWD', '/home/djqsp2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1893'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6387'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'djqsp2'), ('JOURNAL_STREAM', '8:10456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'djqsp2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/djqsp2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/b'), ('SESSION_MANAGER', 'local/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:@/tmp/.ICE-unix/2102,unix/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:/tmp/.ICE-unix/2102'), ('INVOCATION_ID', 'b2ef51cbcb754014804aab03dbd006b6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:32ebce18-bcfc-4c4d-801c-f5aae2c85522'), ('ROS_DISCOVERY_SERVER', ';;;;;;;192.168.107.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/djqsp2/rokey3_E4_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/djqsp2/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'standard'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099284] (-) TimerEvent: {}
+[0.125627] (my_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.187976] (my_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.195585] (my_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199339] (-) TimerEvent: {}
+[0.251412] (my_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.256899] (my_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.257669] (my_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.258221] (my_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.260625] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299475] (-) TimerEvent: {}
+[0.323561] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.328682] (my_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.328826] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.329084] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.334029] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399609] (-) TimerEvent: {}
+[0.439489] (my_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499760] (-) TimerEvent: {}
+[0.510843] (my_interface) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.538801] (my_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.543168] (my_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.549650] (my_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.559166] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.570840] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.589095] (my_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.598095] (my_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.599846] (-) TimerEvent: {}
+[0.700148] (-) TimerEvent: {}
+[0.765885] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800239] (-) TimerEvent: {}
+[0.900520] (-) TimerEvent: {}
+[0.986408] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000606] (-) TimerEvent: {}
+[1.068077] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.083403] (my_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.084814] (my_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.100699] (-) TimerEvent: {}
+[1.102657] (my_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.102744] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.102775] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.102800] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.116951] (my_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.144667] (my_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.162552] (my_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.163517] (my_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.165022] (my_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.179636] (my_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.185197] (my_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/djqsp2/rokey3_E4_ws/build/my_interface\n'}
+[1.191306] (my_interface) CommandEnded: {'returncode': 0}
+[1.192786] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'build'}
+[1.192851] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/djqsp2/rokey3_E4_ws/build/my_interface', '--', '-j22', '-l22'], 'cwd': '/home/djqsp2/rokey3_E4_ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'djqsp2'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/djqsp2'), ('OLDPWD', '/home/djqsp2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1893'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6387'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'djqsp2'), ('JOURNAL_STREAM', '8:10456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'djqsp2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/djqsp2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/b'), ('SESSION_MANAGER', 'local/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:@/tmp/.ICE-unix/2102,unix/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:/tmp/.ICE-unix/2102'), ('INVOCATION_ID', 'b2ef51cbcb754014804aab03dbd006b6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:32ebce18-bcfc-4c4d-801c-f5aae2c85522'), ('ROS_DISCOVERY_SERVER', ';;;;;;;192.168.107.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/djqsp2/rokey3_E4_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/djqsp2/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'standard'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.200787] (-) TimerEvent: {}
+[1.225425] (my_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.231258] (my_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.235226] (my_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_interface\n'}
+[1.300973] (-) TimerEvent: {}
+[1.377994] (my_interface) StdoutLine: {'line': b'[  6%] Built target my_interface__cpp\n'}
+[1.383192] (my_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_c.dir/rosidl_generator_c/my_interface/msg/detail/yolo_info__functions.c.o\x1b[0m\n'}
+[1.386173] (my_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.386361] (my_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.386422] (my_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.386691] (my_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.386832] (my_interface) StdoutLine: {'line': b'creating my_interface.egg-info\n'}
+[1.387170] (my_interface) StdoutLine: {'line': b'writing my_interface.egg-info/PKG-INFO\n'}
+[1.387318] (my_interface) StdoutLine: {'line': b'writing dependency_links to my_interface.egg-info/dependency_links.txt\n'}
+[1.387430] (my_interface) StdoutLine: {'line': b'writing top-level names to my_interface.egg-info/top_level.txt\n'}
+[1.387514] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[1.389332] (my_interface) StdoutLine: {'line': b"reading manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[1.389590] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[1.400984] (-) TimerEvent: {}
+[1.407430] (my_interface) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_my_interface_egg\n'}
+[1.445338] (my_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_interface__rosidl_generator_c.so\x1b[0m\n'}
+[1.476931] (my_interface) StdoutLine: {'line': b'[ 22%] Built target my_interface__rosidl_generator_c\n'}
+[1.484444] (my_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.484833] (my_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.487455] (my_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.501088] (-) TimerEvent: {}
+[1.522020] (my_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface/msg/yolo_info__type_support.cpp.o\x1b[0m\n'}
+[1.523885] (my_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface/msg/detail/yolo_info__type_support.cpp.o\x1b[0m\n'}
+[1.532372] (my_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface/msg/detail/dds_fastrtps/yolo_info__type_support.cpp.o\x1b[0m\n'}
+[1.601212] (-) TimerEvent: {}
+[1.618663] (my_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface/msg/yolo_info__type_support.cpp.o\x1b[0m\n'}
+[1.645196] (my_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface/msg/detail/yolo_info__type_support_c.cpp.o\x1b[0m\n'}
+[1.645852] (my_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.657607] (my_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface/msg/detail/yolo_info__type_support.c.o\x1b[0m\n'}
+[1.678139] (my_interface) StdoutLine: {'line': b'[ 54%] Built target my_interface__rosidl_typesupport_c\n'}
+[1.683400] (my_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.683573] (my_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmy_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.701330] (-) TimerEvent: {}
+[1.713593] (my_interface) StdoutLine: {'line': b'[ 61%] Built target my_interface__rosidl_typesupport_introspection_c\n'}
+[1.714609] (my_interface) StdoutLine: {'line': b'[ 61%] Built target my_interface__rosidl_typesupport_cpp\n'}
+[1.756158] (my_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.792019] (my_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.801343] (my_interface) StdoutLine: {'line': b'[ 67%] Built target my_interface__rosidl_typesupport_introspection_cpp\n'}
+[1.801521] (-) TimerEvent: {}
+[1.832301] (my_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.840393] (my_interface) StdoutLine: {'line': b'[ 70%] Built target my_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[1.880110] (my_interface) StdoutLine: {'line': b'[ 70%] Built target my_interface__rosidl_typesupport_fastrtps_c\n'}
+[1.898073] (my_interface) StdoutLine: {'line': b'[ 70%] Built target my_interface\n'}
+[1.901624] (-) TimerEvent: {}
+[1.911136] (my_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.001746] (-) TimerEvent: {}
+[2.081214] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface__py\n'}
+[2.097690] (my_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_py.dir/rosidl_generator_py/my_interface/msg/_yolo_info_s.c.o\x1b[0m\n'}
+[2.101855] (-) TimerEvent: {}
+[2.180366] (my_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/libmy_interface__rosidl_generator_py.so\x1b[0m\n'}
+[2.201983] (-) TimerEvent: {}
+[2.213966] (my_interface) StdoutLine: {'line': b'[ 80%] Built target my_interface__rosidl_generator_py\n'}
+[2.230412] (my_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.230642] (my_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.232108] (my_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.289318] (my_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.290117] (my_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.291244] (my_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.302067] (-) TimerEvent: {}
+[2.315812] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[2.316593] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.316802] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_c__pyext\n'}
+[2.324613] (my_interface) CommandEnded: {'returncode': 0}
+[2.325202] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'install'}
+[2.331760] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/djqsp2/rokey3_E4_ws/build/my_interface'], 'cwd': '/home/djqsp2/rokey3_E4_ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'djqsp2'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/djqsp2'), ('OLDPWD', '/home/djqsp2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1893'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6387'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'djqsp2'), ('JOURNAL_STREAM', '8:10456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'djqsp2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/djqsp2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/b'), ('SESSION_MANAGER', 'local/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:@/tmp/.ICE-unix/2102,unix/djqsp2-ASUS-Vivobook-S-16-S5606MA-S5606MA:/tmp/.ICE-unix/2102'), ('INVOCATION_ID', 'b2ef51cbcb754014804aab03dbd006b6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:32ebce18-bcfc-4c4d-801c-f5aae2c85522'), ('ROS_DISCOVERY_SERVER', ';;;;;;;192.168.107.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/djqsp2/rokey3_E4_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/djqsp2/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'standard'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.336175] (my_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.336285] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface\n'}
+[2.336330] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.336387] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.336428] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/yolo_info.h\n'}
+[2.336470] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.336496] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__functions.h\n'}
+[2.336542] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__struct.h\n'}
+[2.336582] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__type_support.h\n'}
+[2.336632] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__functions.c\n'}
+[2.336658] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.336698] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/library_path.sh\n'}
+[2.336745] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/library_path.dsv\n'}
+[2.336786] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so\n'}
+[2.336903] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so" to ""\n'}
+[2.336955] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.337013] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.337071] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.337112] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.337136] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.337160] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.337243] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.337283] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.337330] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.337372] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.337399] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__builder.hpp\n'}
+[2.337437] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__type_support.hpp\n'}
+[2.337475] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__struct.hpp\n'}
+[2.337515] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__traits.hpp\n'}
+[2.337540] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/yolo_info.hpp\n'}
+[2.337565] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.337605] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.337657] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.337682] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.337720] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.337757] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/dds_fastrtps\n'}
+[2.337780] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.337817] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.337841] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.337878] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.337928] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.337961] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.337988] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__rosidl_typesupport_introspection_c.h\n'}
+[2.338027] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__type_support.c\n'}
+[2.338065] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.338104] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so\n'}
+[2.338130] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.338167] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so\n'}
+[2.338221] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so" to ""\n'}
+[2.338250] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface\n'}
+[2.338311] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[2.338335] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[2.338361] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.338386] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/include/my_interface/my_interface/msg/detail/yolo_info__type_support.cpp\n'}
+[2.338430] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.338468] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.338507] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so\n'}
+[2.338582] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[2.338620] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/pythonpath.sh\n'}
+[2.338665] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/pythonpath.dsv\n'}
+[2.338704] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info\n'}
+[2.338746] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.338791] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.338831] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.338869] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.338905] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface\n'}
+[2.338963] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.338990] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.339029] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so\n'}
+[2.339081] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py\n'}
+[2.339109] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c\n'}
+[2.339150] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.339208] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.339248] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.339292] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg\n'}
+[2.339319] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_yolo_info.py\n'}
+[2.339345] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py\n'}
+[2.339385] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_yolo_info_s.c\n'}
+[2.363712] (my_interface) StdoutLine: {'line': b"Listing '/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...\n"}
+[2.363786] (my_interface) StdoutLine: {'line': b"Compiling '/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py'...\n"}
+[2.363826] (my_interface) StdoutLine: {'line': b"Listing '/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg'...\n"}
+[2.363865] (my_interface) StdoutLine: {'line': b"Compiling '/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py'...\n"}
+[2.363903] (my_interface) StdoutLine: {'line': b"Compiling '/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_yolo_info.py'...\n"}
+[2.366112] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.366312] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.366358] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.366521] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.366568] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.366673] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.366718] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so\n'}
+[2.366880] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so" to ""\n'}
+[2.366923] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/msg/YoloInfo.idl\n'}
+[2.366973] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/msg/YoloInfo.msg\n'}
+[2.367048] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface\n'}
+[2.367094] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface\n'}
+[2.367137] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh\n'}
+[2.367221] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv\n'}
+[2.367265] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/path.sh\n'}
+[2.367307] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/environment/path.dsv\n'}
+[2.367376] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/local_setup.bash\n'}
+[2.367418] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/local_setup.sh\n'}
+[2.367460] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/local_setup.zsh\n'}
+[2.367536] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/local_setup.dsv\n'}
+[2.367582] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/package.dsv\n'}
+[2.367627] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/ament_index/resource_index/packages/my_interface\n'}
+[2.367691] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake\n'}
+[2.367771] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.367818] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.367864] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.367910] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake\n'}
+[2.367979] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.368054] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.368100] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.368145] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.368190] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake\n'}
+[2.368252] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.368331] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.368388] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.368434] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.368478] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.368522] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake\n'}
+[2.368565] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.368626] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.368707] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.368750] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.368792] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.368834] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.368877] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.368917] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.368984] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake\n'}
+[2.369054] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake\n'}
+[2.369096] (my_interface) StdoutLine: {'line': b'-- Installing: /home/djqsp2/rokey3_E4_ws/install/my_interface/share/my_interface/package.xml\n'}
+[2.370735] (my_interface) CommandEnded: {'returncode': 0}
+[2.384036] (my_interface) JobEnded: {'identifier': 'my_interface', 'rc': 0}
+[2.384424] (-) EventReactorShutdown: {}

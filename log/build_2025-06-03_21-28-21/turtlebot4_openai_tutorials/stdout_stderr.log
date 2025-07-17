@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating turtlebot4_openai_tutorials.egg-info
+writing turtlebot4_openai_tutorials.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_openai_tutorials.egg-info/dependency_links.txt
+writing entry points to turtlebot4_openai_tutorials.egg-info/entry_points.txt
+writing requirements to turtlebot4_openai_tutorials.egg-info/requires.txt
+writing top-level names to turtlebot4_openai_tutorials.egg-info/top_level.txt
+writing manifest file 'turtlebot4_openai_tutorials.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot4_openai_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_openai_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/lib/python3.10/site-packages/turtlebot4-openai-tutorials.egg-link (link to .)
+Installing natural_language_nav script to /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/lib/turtlebot4_openai_tutorials
+Installing nav_to_pose script to /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/lib/turtlebot4_openai_tutorials
+
+Installed /home/djqsp2/rokey3_E4_ws/build/turtlebot4_openai_tutorials
+running symlink_data
+creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/ament_index
+creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/ament_index/resource_index
+creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/djqsp2/rokey3_E4_ws/build/turtlebot4_openai_tutorials/resource/turtlebot4_openai_tutorials -> /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/djqsp2/rokey3_E4_ws/build/turtlebot4_openai_tutorials/package.xml -> /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/turtlebot4_openai_tutorials
+creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/turtlebot4_openai_tutorials/launch
+symbolically linking /home/djqsp2/rokey3_E4_ws/build/turtlebot4_openai_tutorials/launch/natural_language_nav_launch.py -> /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/turtlebot4_openai_tutorials/launch
+creating /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/turtlebot4_openai_tutorials/prompts
+symbolically linking /home/djqsp2/rokey3_E4_ws/build/turtlebot4_openai_tutorials/prompts/turtlebot4_api.txt -> /home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials/share/turtlebot4_openai_tutorials/prompts

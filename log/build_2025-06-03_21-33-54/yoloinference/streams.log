@@ -1,0 +1,238 @@
+[0.024s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/yoloinference -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/yoloinference
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.457s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.484s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.517s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.528s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.584s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.675s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.827s] -- Found Threads: TRUE  
+[0.862s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.882s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.116s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.500s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.502s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.522s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.522s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.522s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.538s] -- Found PythonExtra: .so  
+[1.578s] -- Configuring done
+[1.596s] -- Generating done
+[1.603s] -- Build files have been written to: /home/djqsp2/rokey3_E4_ws/build/yoloinference
+[1.612s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/yoloinference -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/yoloinference
+[1.613s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yoloinference -- -j22 -l22
+[1.650s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.659s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.662s] [  5%] Built target ament_cmake_python_symlink_yoloinference
+[1.836s] running egg_info
+[1.837s] creating yoloinference.egg-info
+[1.837s] writing yoloinference.egg-info/PKG-INFO
+[1.837s] writing dependency_links to yoloinference.egg-info/dependency_links.txt
+[1.837s] writing top-level names to yoloinference.egg-info/top_level.txt
+[1.837s] writing manifest file 'yoloinference.egg-info/SOURCES.txt'
+[1.838s] reading manifest file 'yoloinference.egg-info/SOURCES.txt'
+[1.838s] writing manifest file 'yoloinference.egg-info/SOURCES.txt'
+[1.863s] [  5%] Built target ament_cmake_python_build_yoloinference_egg
+[1.864s] [  5%] Built target yoloinference__cpp
+[1.866s] [  7%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_generator_c.dir/rosidl_generator_c/yoloinference/msg/detail/bounding_box__functions.c.o[0m
+[1.869s] [ 10%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_generator_c.dir/rosidl_generator_c/yoloinference/msg/detail/bounding_boxes__functions.c.o[0m
+[1.872s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.874s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.874s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.917s] [ 20%] [32m[1mLinking C shared library libyoloinference__rosidl_generator_c.so[0m
+[1.952s] [ 20%] Built target yoloinference__rosidl_generator_c
+[1.959s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.959s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.961s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.078s] [ 33%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yoloinference/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[2.078s] [ 33%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yoloinference/msg/detail/bounding_box__type_support.cpp.o[0m
+[2.094s] [ 38%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yoloinference/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[2.094s] [ 38%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yoloinference/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[2.184s] [ 43%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yoloinference/msg/bounding_boxes__type_support.cpp.o[0m
+[2.184s] [ 43%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yoloinference/msg/bounding_box__type_support.cpp.o[0m
+[2.184s] [ 46%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yoloinference/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[2.184s] [ 48%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yoloinference/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[2.251s] [ 51%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yoloinference/msg/bounding_boxes__type_support.cpp.o[0m
+[2.263s] [ 53%] [32mBuilding CXX object CMakeFiles/yoloinference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yoloinference/msg/bounding_box__type_support.cpp.o[0m
+[2.331s] [ 56%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yoloinference/msg/detail/bounding_boxes__type_support.c.o[0m
+[2.332s] [ 58%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yoloinference/msg/detail/bounding_box__type_support.c.o[0m
+[2.342s] [ 61%] [32m[1mLinking CXX shared library libyoloinference__rosidl_typesupport_c.so[0m
+[2.443s] [ 64%] [32m[1mLinking C shared library libyoloinference__rosidl_typesupport_introspection_c.so[0m
+[2.447s] [ 64%] Built target yoloinference__rosidl_typesupport_c
+[2.464s] [ 66%] [32m[1mLinking CXX shared library libyoloinference__rosidl_typesupport_cpp.so[0m
+[2.471s] [ 66%] Built target yoloinference__rosidl_typesupport_introspection_c
+[2.498s] [ 66%] Built target yoloinference__rosidl_typesupport_cpp
+[2.508s] [ 69%] [32m[1mLinking CXX shared library libyoloinference__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.534s] [ 71%] [32m[1mLinking CXX shared library libyoloinference__rosidl_typesupport_introspection_cpp.so[0m
+[2.586s] [ 71%] Built target yoloinference__rosidl_typesupport_fastrtps_cpp
+[2.605s] [ 71%] Built target yoloinference__rosidl_typesupport_introspection_cpp
+[2.625s] [ 74%] [32m[1mLinking CXX shared library libyoloinference__rosidl_typesupport_fastrtps_c.so[0m
+[2.683s] [ 74%] Built target yoloinference__rosidl_typesupport_fastrtps_c
+[2.701s] [ 74%] Built target yoloinference
+[2.721s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.983s] [ 76%] Built target yoloinference__py
+[3.002s] [ 79%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_generator_py.dir/rosidl_generator_py/yoloinference/msg/_bounding_boxes_s.c.o[0m
+[3.003s] [ 82%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_generator_py.dir/rosidl_generator_py/yoloinference/msg/_bounding_box_s.c.o[0m
+[3.066s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/yoloinference/libyoloinference__rosidl_generator_py.so[0m
+[3.095s] [ 84%] Built target yoloinference__rosidl_generator_py
+[3.113s] [ 87%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yoloinference/_yoloinference_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.116s] [ 89%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yoloinference/_yoloinference_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.116s] [ 92%] [32mBuilding C object CMakeFiles/yoloinference__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yoloinference/_yoloinference_s.ep.rosidl_typesupport_c.c.o[0m
+[3.179s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yoloinference/yoloinference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.179s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yoloinference/yoloinference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.180s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yoloinference/yoloinference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.206s] [100%] Built target yoloinference__rosidl_typesupport_introspection_c__pyext
+[3.207s] [100%] Built target yoloinference__rosidl_typesupport_c__pyext
+[3.208s] [100%] Built target yoloinference__rosidl_typesupport_fastrtps_c__pyext
+[3.217s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yoloinference -- -j22 -l22
+[3.219s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yoloinference
+[3.225s] -- Install configuration: ""
+[3.225s] -- Execute custom install script
+[3.225s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/ament_index/resource_index/rosidl_interfaces/yoloinference
+[3.233s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/bounding_box.h
+[3.241s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/bounding_boxes.h
+[3.247s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__functions.h
+[3.254s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__struct.h
+[3.262s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__type_support.h
+[3.270s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__functions.h
+[3.276s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__struct.h
+[3.284s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__type_support.h
+[3.292s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/rosidl_generator_c__visibility_control.h
+[3.298s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/library_path.sh
+[3.306s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/library_path.dsv
+[3.312s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[3.320s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[3.326s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.332s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/bounding_box.hpp
+[3.338s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/bounding_boxes.hpp
+[3.344s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__builder.hpp
+[3.351s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__struct.hpp
+[3.357s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__traits.hpp
+[3.364s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__type_support.hpp
+[3.372s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__builder.hpp
+[3.377s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__struct.hpp
+[3.385s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__traits.hpp
+[3.391s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__type_support.hpp
+[3.396s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.401s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[3.405s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[3.413s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.419s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[3.425s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+[3.431s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.435s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[3.443s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/include/yoloinference/yoloinference/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[3.450s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/pythonpath.sh
+[3.456s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/pythonpath.dsv
+[3.463s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference-0.0.0-py3.10.egg-info/PKG-INFO
+[3.470s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.475s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.482s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference-0.0.0-py3.10.egg-info/top_level.txt
+[3.488s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/__init__.py
+[3.494s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/_yoloinference_s.ep.rosidl_typesupport_c.c
+[3.499s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/_yoloinference_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.505s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/_yoloinference_s.ep.rosidl_typesupport_introspection_c.c
+[3.511s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/libyoloinference__rosidl_generator_py.so
+[3.516s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/__init__.py
+[3.522s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_box.py
+[3.530s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_box_s.c
+[3.535s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_boxes.py
+[3.542s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_boxes_s.c
+[3.547s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.553s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.558s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/yoloinference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/msg/BoundingBox.idl
+[3.572s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/msg/BoundingBoxes.idl
+[3.577s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/msg/BoundingBox.msg
+[3.585s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/msg/BoundingBoxes.msg
+[3.590s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/ament_index/resource_index/package_run_dependencies/yoloinference
+[3.597s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/ament_index/resource_index/parent_prefix_path/yoloinference
+[3.602s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/ament_prefix_path.sh
+[3.608s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/ament_prefix_path.dsv
+[3.612s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/path.sh
+[3.618s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/environment/path.dsv
+[3.624s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/local_setup.bash
+[3.632s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/local_setup.sh
+[3.638s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/local_setup.zsh
+[3.643s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/local_setup.dsv
+[3.649s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/package.dsv
+[3.654s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/ament_index/resource_index/packages/yoloinference
+[3.659s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/rosidl_cmake-extras.cmake
+[3.665s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.669s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.675s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/ament_cmake_export_libraries-extras.cmake
+[3.680s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/ament_cmake_export_targets-extras.cmake
+[3.685s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.691s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.698s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinferenceConfig.cmake
+[3.705s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinferenceConfig-version.cmake
+[3.710s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/package.xml
+[3.716s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_generator_c.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_generator_c.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_fastrtps_c.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_fastrtps_c.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_fastrtps_cpp.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_introspection_c.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_introspection_c.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_c.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_c.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_introspection_cpp.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_introspection_cpp.so" to ""
+[3.717s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_cpp.so
+[3.717s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_typesupport_cpp.so" to ""
+[3.749s] Listing '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference'...
+[3.749s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/__init__.py'...
+[3.749s] Listing '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg'...
+[3.749s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/__init__.py'...
+[3.749s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_box.py'...
+[3.749s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yoloinference/local/lib/python3.10/dist-packages/yoloinference/msg/_bounding_boxes.py'...
+[3.752s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_generator_py.so
+[3.752s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yoloinference/lib/libyoloinference__rosidl_generator_py.so" to ""
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_generator_cExport.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_generator_cExport-noconfig.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_typesupport_fastrtps_cExport.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_generator_cppExport.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.753s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_introspection_cExport.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_cExport.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_cExport-noconfig.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_introspection_cppExport.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_cppExport.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/yoloinference__rosidl_typesupport_cppExport-noconfig.cmake
+[3.754s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_generator_pyExport.cmake
+[3.755s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yoloinference/share/yoloinference/cmake/export_yoloinference__rosidl_generator_pyExport-noconfig.cmake
+[3.757s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yoloinference' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yoloinference

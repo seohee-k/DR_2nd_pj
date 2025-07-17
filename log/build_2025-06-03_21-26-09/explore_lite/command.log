@@ -1,0 +1,1 @@
+Invoking command in '/home/djqsp2/rokey3_E4_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/explore_lite

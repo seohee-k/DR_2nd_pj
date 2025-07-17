@@ -1,0 +1,27 @@
+[0.210s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/multirobot_map_merge -- -j22 -l22
+[0.253s] [  8%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o[0m
+[0.253s] [ 16%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o[0m
+[0.254s] [ 25%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o[0m
+[0.254s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.254s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.496s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.555s] [ 50%] Built target gtest_main
+[3.428s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.495s] [ 58%] Built target gtest
+[4.493s] [ 66%] [32m[1mLinking CXX static library libcombine_grids.a[0m
+[4.556s] [ 66%] Built target combine_grids
+[4.574s] [ 75%] [32mBuilding CXX object CMakeFiles/test_merging_pipeline.dir/test/test_merging_pipeline.cpp.o[0m
+[4.576s] [ 83%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[4.707s] In file included from [01m[K/home/djqsp2/rokey3_E4_ws/src/m-explore-ros2/map_merge/test/testing_helpers.h:7[m[K,
+[4.707s]                  from [01m[K/home/djqsp2/rokey3_E4_ws/src/m-explore-ros2/map_merge/test/test_merging_pipeline.cpp:42[m[K:
+[4.707s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.707s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.707s]       |  [01;35m[K^~~~~~~[m[K
+[5.396s] In file included from [01m[K/home/djqsp2/rokey3_E4_ws/src/m-explore-ros2/map_merge/src/map_merge.cpp:44[m[K:
+[5.396s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.396s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.396s]       |  [01;35m[K^~~~~~~[m[K
+[8.016s] [ 91%] [32m[1mLinking CXX executable test_merging_pipeline[0m
+[8.569s] [ 91%] Built target test_merging_pipeline
+[14.456s] [100%] [32m[1mLinking CXX executable map_merge[0m
+[15.180s] [100%] Built target map_merge

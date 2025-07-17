@@ -1,0 +1,1 @@
+Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_cpp_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/turtlebot4_tutorials/turtlebot4_cpp_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/turtlebot4_cpp_tutorials

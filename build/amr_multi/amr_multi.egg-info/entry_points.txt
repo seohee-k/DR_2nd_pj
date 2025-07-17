@@ -1,0 +1,4 @@
+[console_scripts]
+amr_master = amr_master:main
+yolo_fake_publisher = yolo_fake_publisher:main
+

@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'amr_multi'}
+[0.000295] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000319] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000340] (-) JobUnselected: {'identifier': 'patrol'}
+[0.000363] (-) JobUnselected: {'identifier': 'turtlebot4_cpp_tutorials'}
+[0.000400] (-) JobUnselected: {'identifier': 'turtlebot4_description'}
+[0.000432] (-) JobUnselected: {'identifier': 'turtlebot4_desktop'}
+[0.000457] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_bringup'}
+[0.000481] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_gui_plugins'}
+[0.000506] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_toolbox'}
+[0.000530] (-) JobUnselected: {'identifier': 'turtlebot4_msgs'}
+[0.000555] (-) JobUnselected: {'identifier': 'turtlebot4_navigation'}
+[0.000579] (-) JobUnselected: {'identifier': 'turtlebot4_node'}
+[0.000603] (-) JobUnselected: {'identifier': 'turtlebot4_openai_tutorials'}
+[0.000627] (-) JobUnselected: {'identifier': 'turtlebot4_python_tutorials'}
+[0.000651] (-) JobUnselected: {'identifier': 'turtlebot4_simulator'}
+[0.000675] (-) JobUnselected: {'identifier': 'turtlebot4_tutorials'}
+[0.000699] (-) JobUnselected: {'identifier': 'turtlebot4_viz'}
+[0.000722] (-) JobUnselected: {'identifier': 'yolo_data'}
+[0.000747] (-) JobUnselected: {'identifier': 'yoloinference'}
+[0.000772] (-) EventReactorShutdown: {}

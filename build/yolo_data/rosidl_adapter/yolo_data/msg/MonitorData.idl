@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolo_data/msg/MonitorData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "yolo_data/msg/MapPoint.idl"
+#include "yolo_data/msg/Monitored.idl"
+
+module yolo_data {
+  module msg {
+    struct MonitorData {
+      std_msgs::msg::Header header;
+
+      sequence<yolo_data::msg::Monitored> boxes;
+
+      sequence<yolo_data::msg::MapPoint> points;
+    };
+  };
+};

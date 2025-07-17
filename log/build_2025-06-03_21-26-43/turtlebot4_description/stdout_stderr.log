@@ -1,0 +1,36 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/turtlebot4_description/share/turtlebot4_description/package.xml

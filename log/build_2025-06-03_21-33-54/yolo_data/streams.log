@@ -1,0 +1,264 @@
+[0.023s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/yolo_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/yolo_data
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.432s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.467s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.507s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.577s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.645s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.664s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.710s] -- Looking for pthread.h
+[0.765s] -- Looking for pthread.h - found
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.821s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.822s] -- Found Threads: TRUE  
+[0.876s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.899s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.102s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.510s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.512s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.533s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.533s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.533s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.533s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.549s] -- Found PythonExtra: .so  
+[1.588s] -- Configuring done
+[1.607s] -- Generating done
+[1.612s] -- Build files have been written to: /home/djqsp2/rokey3_E4_ws/build/yolo_data
+[1.622s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/yolo_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/yolo_data
+[1.624s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yolo_data -- -j22 -l22
+[1.652s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.660s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.667s] [  4%] Built target ament_cmake_python_symlink_yolo_data
+[1.877s] running egg_info
+[1.877s] creating yolo_data.egg-info
+[1.877s] writing yolo_data.egg-info/PKG-INFO
+[1.878s] writing dependency_links to yolo_data.egg-info/dependency_links.txt
+[1.878s] writing top-level names to yolo_data.egg-info/top_level.txt
+[1.878s] writing manifest file 'yolo_data.egg-info/SOURCES.txt'
+[1.879s] reading manifest file 'yolo_data.egg-info/SOURCES.txt'
+[1.879s] writing manifest file 'yolo_data.egg-info/SOURCES.txt'
+[1.885s] [  4%] Built target yolo_data__cpp
+[1.896s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.897s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.897s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.907s] [ 10%] Built target ament_cmake_python_build_yolo_data_egg
+[1.916s] [ 12%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_c.dir/rosidl_generator_c/yolo_data/msg/detail/monitor_data__functions.c.o[0m
+[1.916s] [ 14%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_c.dir/rosidl_generator_c/yolo_data/msg/detail/map_point__functions.c.o[0m
+[1.917s] [ 17%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_c.dir/rosidl_generator_c/yolo_data/msg/detail/monitored__functions.c.o[0m
+[1.965s] [ 19%] [32m[1mLinking C shared library libyolo_data__rosidl_generator_c.so[0m
+[2.002s] [ 19%] Built target yolo_data__rosidl_generator_c
+[2.010s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.011s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.013s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.120s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_data/msg/detail/dds_fastrtps/monitored__type_support.cpp.o[0m
+[2.120s] [ 29%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_data/msg/detail/dds_fastrtps/monitor_data__type_support.cpp.o[0m
+[2.121s] [ 31%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_data/msg/detail/dds_fastrtps/map_point__type_support.cpp.o[0m
+[2.157s] [ 34%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_data/msg/monitored__type_support.cpp.o[0m
+[2.157s] [ 36%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_data/msg/map_point__type_support.cpp.o[0m
+[2.162s] [ 38%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_data/msg/monitor_data__type_support.cpp.o[0m
+[2.280s] [ 40%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_data/msg/detail/monitored__type_support.cpp.o[0m
+[2.283s] [ 42%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_data/msg/detail/map_point__type_support.cpp.o[0m
+[2.289s] [ 44%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_data/msg/detail/monitor_data__type_support.cpp.o[0m
+[2.350s] [ 46%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_data/msg/detail/map_point__type_support.c.o[0m
+[2.353s] [ 48%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_data/msg/detail/monitor_data__type_support.c.o[0m
+[2.368s] [ 51%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_data/msg/detail/monitored__type_support.c.o[0m
+[2.394s] [ 53%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_data/msg/monitored__type_support.cpp.o[0m
+[2.402s] [ 55%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_data/msg/map_point__type_support.cpp.o[0m
+[2.405s] [ 57%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_data/msg/monitor_data__type_support.cpp.o[0m
+[2.438s] [ 59%] [32m[1mLinking C shared library libyolo_data__rosidl_typesupport_introspection_c.so[0m
+[2.449s] [ 61%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_data/msg/detail/map_point__type_support_c.cpp.o[0m
+[2.450s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_data/msg/detail/monitored__type_support_c.cpp.o[0m
+[2.450s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_data/msg/detail/monitor_data__type_support_c.cpp.o[0m
+[2.450s] [ 68%] [32m[1mLinking CXX shared library libyolo_data__rosidl_typesupport_c.so[0m
+[2.474s] [ 68%] Built target yolo_data__rosidl_typesupport_introspection_c
+[2.490s] [ 68%] Built target yolo_data__rosidl_typesupport_c
+[2.504s] [ 70%] [32m[1mLinking CXX shared library libyolo_data__rosidl_typesupport_cpp.so[0m
+[2.535s] [ 70%] Built target yolo_data__rosidl_typesupport_cpp
+[2.626s] [ 72%] [32m[1mLinking CXX shared library libyolo_data__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.686s] [ 72%] Built target yolo_data__rosidl_typesupport_fastrtps_cpp
+[2.732s] [ 74%] [32m[1mLinking CXX shared library libyolo_data__rosidl_typesupport_fastrtps_c.so[0m
+[2.763s] [ 76%] [32m[1mLinking CXX shared library libyolo_data__rosidl_typesupport_introspection_cpp.so[0m
+[2.787s] [ 76%] Built target yolo_data__rosidl_typesupport_fastrtps_c
+[2.818s] [ 76%] Built target yolo_data__rosidl_typesupport_introspection_cpp
+[2.833s] [ 76%] Built target yolo_data
+[2.848s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.122s] [ 78%] Built target yolo_data__py
+[3.138s] [ 80%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_py.dir/rosidl_generator_py/yolo_data/msg/_monitor_data_s.c.o[0m
+[3.139s] [ 85%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_py.dir/rosidl_generator_py/yolo_data/msg/_map_point_s.c.o[0m
+[3.139s] [ 85%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_generator_py.dir/rosidl_generator_py/yolo_data/msg/_monitored_s.c.o[0m
+[3.227s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/yolo_data/libyolo_data__rosidl_generator_py.so[0m
+[3.258s] [ 87%] Built target yolo_data__rosidl_generator_py
+[3.276s] [ 89%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_data/_yolo_data_s.ep.rosidl_typesupport_c.c.o[0m
+[3.277s] [ 91%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_data/_yolo_data_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.277s] [ 93%] [32mBuilding C object CMakeFiles/yolo_data__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_data/_yolo_data_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.340s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/yolo_data/yolo_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.341s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yolo_data/yolo_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.347s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_data/yolo_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.366s] [100%] Built target yolo_data__rosidl_typesupport_c__pyext
+[3.368s] [100%] Built target yolo_data__rosidl_typesupport_fastrtps_c__pyext
+[3.380s] [100%] Built target yolo_data__rosidl_typesupport_introspection_c__pyext
+[3.388s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/yolo_data -- -j22 -l22
+[3.390s] Invoking command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yolo_data
+[3.393s] -- Install configuration: ""
+[3.394s] -- Execute custom install script
+[3.394s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/ament_index/resource_index/rosidl_interfaces/yolo_data
+[3.402s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__functions.h
+[3.408s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__struct.h
+[3.413s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__type_support.h
+[3.419s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__functions.h
+[3.425s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__struct.h
+[3.430s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__type_support.h
+[3.436s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__functions.h
+[3.441s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__struct.h
+[3.447s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__type_support.h
+[3.451s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/map_point.h
+[3.458s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/monitor_data.h
+[3.465s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/monitored.h
+[3.470s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/rosidl_generator_c__visibility_control.h
+[3.477s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/library_path.sh
+[3.483s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/library_path.dsv
+[3.489s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__rosidl_typesupport_fastrtps_c.h
+[3.496s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__rosidl_typesupport_fastrtps_c.h
+[3.504s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__rosidl_typesupport_fastrtps_c.h
+[3.510s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.517s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__builder.hpp
+[3.525s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__struct.hpp
+[3.530s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__traits.hpp
+[3.536s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__type_support.hpp
+[3.543s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__builder.hpp
+[3.549s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__struct.hpp
+[3.555s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__traits.hpp
+[3.560s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__type_support.hpp
+[3.567s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__builder.hpp
+[3.572s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__struct.hpp
+[3.578s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__traits.hpp
+[3.583s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__type_support.hpp
+[3.589s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/map_point.hpp
+[3.593s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/monitor_data.hpp
+[3.599s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/monitored.hpp
+[3.604s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.610s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.614s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.620s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__rosidl_typesupport_fastrtps_cpp.hpp
+[3.626s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.631s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__rosidl_typesupport_introspection_c.h
+[3.636s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__rosidl_typesupport_introspection_c.h
+[3.643s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__rosidl_typesupport_introspection_c.h
+[3.648s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.654s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/map_point__rosidl_typesupport_introspection_cpp.hpp
+[3.660s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitor_data__rosidl_typesupport_introspection_cpp.hpp
+[3.666s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/include/yolo_data/yolo_data/msg/detail/monitored__rosidl_typesupport_introspection_cpp.hpp
+[3.670s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/pythonpath.sh
+[3.676s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/pythonpath.dsv
+[3.682s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data-0.0.0-py3.10.egg-info/PKG-INFO
+[3.688s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.694s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.701s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data-0.0.0-py3.10.egg-info/top_level.txt
+[3.706s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/__init__.py
+[3.713s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/_yolo_data_s.ep.rosidl_typesupport_c.c
+[3.720s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/_yolo_data_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.726s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/_yolo_data_s.ep.rosidl_typesupport_introspection_c.c
+[3.731s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/libyolo_data__rosidl_generator_py.so
+[3.735s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/__init__.py
+[3.740s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_map_point.py
+[3.746s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_map_point_s.c
+[3.753s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitor_data.py
+[3.760s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitor_data_s.c
+[3.766s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitored.py
+[3.771s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitored_s.c
+[3.779s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.785s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.791s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.796s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] -- Up-to-date symlink: /home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/yolo_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/Monitored.idl
+[3.804s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/MonitorData.idl
+[3.811s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/MapPoint.idl
+[3.817s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/Monitored.msg
+[3.823s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/MonitorData.msg
+[3.829s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/msg/MapPoint.msg
+[3.836s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/ament_index/resource_index/package_run_dependencies/yolo_data
+[3.841s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/ament_index/resource_index/parent_prefix_path/yolo_data
+[3.846s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/ament_prefix_path.sh
+[3.852s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/ament_prefix_path.dsv
+[3.858s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/path.sh
+[3.864s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/environment/path.dsv
+[3.869s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/local_setup.bash
+[3.875s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/local_setup.sh
+[3.881s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/local_setup.zsh
+[3.889s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/local_setup.dsv
+[3.895s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/package.dsv
+[3.902s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/ament_index/resource_index/packages/yolo_data
+[3.908s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/rosidl_cmake-extras.cmake
+[3.918s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.925s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.930s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/ament_cmake_export_libraries-extras.cmake
+[3.937s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/ament_cmake_export_targets-extras.cmake
+[3.944s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.951s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.957s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_dataConfig.cmake
+[3.962s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_dataConfig-version.cmake
+[3.967s] -- Symlinking: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/package.xml
+[3.972s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_generator_c.so
+[3.972s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_generator_c.so" to ""
+[3.972s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_fastrtps_c.so
+[3.972s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_fastrtps_c.so" to ""
+[3.972s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_fastrtps_cpp.so
+[3.973s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.973s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_introspection_c.so
+[3.973s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_introspection_c.so" to ""
+[3.973s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_c.so
+[3.973s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_c.so" to ""
+[3.973s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_introspection_cpp.so
+[3.973s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_introspection_cpp.so" to ""
+[3.973s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_cpp.so
+[3.973s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_typesupport_cpp.so" to ""
+[4.001s] Listing '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data'...
+[4.001s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/__init__.py'...
+[4.002s] Listing '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg'...
+[4.002s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/__init__.py'...
+[4.002s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_map_point.py'...
+[4.002s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitor_data.py'...
+[4.002s] Compiling '/home/djqsp2/rokey3_E4_ws/install/yolo_data/local/lib/python3.10/dist-packages/yolo_data/msg/_monitored.py'...
+[4.004s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_generator_py.so
+[4.005s] -- Set runtime path of "/home/djqsp2/rokey3_E4_ws/install/yolo_data/lib/libyolo_data__rosidl_generator_py.so" to ""
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_generator_cExport.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_generator_cExport-noconfig.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_typesupport_fastrtps_cExport.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_generator_cppExport.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.005s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_introspection_cExport.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_cExport.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_cExport-noconfig.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_introspection_cppExport.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_cppExport.cmake
+[4.006s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/yolo_data__rosidl_typesupport_cppExport-noconfig.cmake
+[4.007s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_generator_pyExport.cmake
+[4.007s] -- Installing: /home/djqsp2/rokey3_E4_ws/install/yolo_data/share/yolo_data/cmake/export_yolo_data__rosidl_generator_pyExport-noconfig.cmake
+[4.009s] Invoked command in '/home/djqsp2/rokey3_E4_ws/build/yolo_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_python_tutorials:/home/djqsp2/rokey3_E4_ws/install/turtlebot4_openai_tutorials:/home/djqsp2/rokey3_E4_ws/install/patrol:/home/djqsp2/rokey3_E4_ws/install/amr_multi:/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/yolo_data

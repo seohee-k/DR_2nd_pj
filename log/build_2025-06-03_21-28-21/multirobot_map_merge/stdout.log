@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target combine_grids[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 16%] Built target gtest
+[ 33%] Built target gtest_main
+[ 66%] Built target combine_grids
+[35m[1mConsolidate compiler generated dependencies of target map_merge[0m
+[35m[1mConsolidate compiler generated dependencies of target test_merging_pipeline[0m
+[100%] Built target test_merging_pipeline
+[100%] Built target map_merge
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/include/map_merge//map_merge.h
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+-- Symlinking: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+-- Installing: /home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge/lib/libcombine_grids.a

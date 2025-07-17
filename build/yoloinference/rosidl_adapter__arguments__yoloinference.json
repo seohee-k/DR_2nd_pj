@@ -1,0 +1,7 @@
+{
+  "package_name": "yoloinference",
+  "non_idl_tuples": [
+    "/home/djqsp2/rokey3_E4_ws/src/yoloinference:msg/BoundingBox.msg",
+    "/home/djqsp2/rokey3_E4_ws/src/yoloinference:msg/BoundingBoxes.msg"
+  ]
+}
