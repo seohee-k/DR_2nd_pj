@@ -54,12 +54,12 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 ## 내가 기여한 부분
 
 
-### 1. 시나리오 설계, High Level Architecture Diagram 구상
+- 시나리오 설계, High Level Architecture Diagram 구상
 
 
 
 
-### 2. Patrol fire 구현 후 코드 설계 및 통합
+- Patrol fire 구현 후 코드 설계 및 통합
 
 
 -Turtlebot4가 fire detect시 fire 좌표 저장 후 공유 및 fire_flag 발신 후 fire extinguish를 사용해 화재진압
@@ -71,7 +71,7 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 
 
 
-### 3. terminal창의 log들을 website와 synchronize하여 SQLite3, socketio 기반의 Database처리
+- terminal창의 log들을 website와 synchronize하여 SQLite3, socketio 기반의 Database처리
 
 
 -Database처리를 하여 일정 line이 넘어가면 기록을 볼 수 없는 termianl창의 log들을 새로고침 없이 실시간으로 저장
