@@ -11,7 +11,7 @@
 시스템은 두 대의 AMR이 독립적으로 작동하되, 특정 시나리오에서 협력하며 데이터를 현장에서 처리.
 
 
-
+<br />
 
 
 ## 제작 기간 & 참여 인원
@@ -21,7 +21,7 @@
 
 
 
-
+<br />
 
 
 ## 사용한 기술 (기술 스택)  
@@ -30,7 +30,7 @@
 <img src="https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=white">   <img src="https://img.shields.io/badge/ROS2-black?style=for-the-badge&logo=ros&logoColor=#22314E">   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">   <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white">   <img src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white">    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">   <img src="https://img.shields.io/badge/Flask-3BABC3?style=for-the-badge&logo=flask&logoColor=white">  
 
 
-
+<br />
 
 
 ## High Level Architecture Diagram
@@ -40,7 +40,7 @@
 AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터페이스와 로컬 네트워크(Wi-Fi)를 통해 직접 통신.
 
 
-
+<br />
 
 
 ## Detail Diagram
@@ -48,7 +48,7 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 
 
 
-
+<br />
 
 
 ## 내가 기여한 부분
@@ -81,7 +81,7 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 
 
 
-
+<br />
 
 
    
@@ -99,7 +99,7 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 
 
 
-
+<br />
 
 
 ## 🔨해결방법
@@ -126,7 +126,7 @@ AMR은 모니터링, 알림 및 수동 제어를 위해 PC의 사용자 인터�
 3-3. monitor_logs에서 SocketIO 추가로 실시간 로그 전송 로직을 통합.
 
 
-
+<br />
 
 
 ## 회고 / 느낀 점
