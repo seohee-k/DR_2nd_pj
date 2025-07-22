@@ -1,1 +1,0 @@
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs -- -j22 -l22

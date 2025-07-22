@@ -1,1 +1,0 @@
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/djqsp2/rokey3_E4_ws/src/m-explore-ros2/map_merge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/djqsp2/rokey3_E4_ws/install/multirobot_map_merge

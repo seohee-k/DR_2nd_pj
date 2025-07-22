@@ -1,4 +1,0 @@
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation -- -j22 -l22
-Invoked command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation -- -j22 -l22
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation
-Invoked command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/turtlebot4_navigation

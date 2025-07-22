@@ -1,4 +1,0 @@
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs -- -j22 -l22
-Invoked command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs -- -j22 -l22
-Invoking command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs
-Invoked command in '/home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/djqsp2/rokey3_E4_ws/build/turtlebot4_msgs
