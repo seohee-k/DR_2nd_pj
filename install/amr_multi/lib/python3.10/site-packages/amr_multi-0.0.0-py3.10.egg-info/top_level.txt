@@ -1,3 +1,0 @@
-amr_master
-amr_multi
-yolo_fake_publisher
