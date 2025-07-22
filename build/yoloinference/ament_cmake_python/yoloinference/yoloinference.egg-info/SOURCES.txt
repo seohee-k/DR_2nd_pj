@@ -1,9 +1,0 @@
-setup.py
-yoloinference/__init__.py
-yoloinference.egg-info/PKG-INFO
-yoloinference.egg-info/SOURCES.txt
-yoloinference.egg-info/dependency_links.txt
-yoloinference.egg-info/top_level.txt
-yoloinference/msg/__init__.py
-yoloinference/msg/_bounding_box.py
-yoloinference/msg/_bounding_boxes.py

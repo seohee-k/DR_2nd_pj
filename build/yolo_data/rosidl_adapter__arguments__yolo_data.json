@@ -1,8 +1,0 @@
-{
-  "package_name": "yolo_data",
-  "non_idl_tuples": [
-    "/home/djqsp2/rokey3_E4_ws/src/yolo_data:msg/Monitored.msg",
-    "/home/djqsp2/rokey3_E4_ws/src/yolo_data:msg/MonitorData.msg",
-    "/home/djqsp2/rokey3_E4_ws/src/yolo_data:msg/MapPoint.msg"
-  ]
-}

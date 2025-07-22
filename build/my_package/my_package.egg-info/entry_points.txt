@@ -1,6 +1,0 @@
-[console_scripts]
-pub_data = day2.2_0_c_data_publisher:main
-pub_image = day2.2_0_a_image_publisher:main
-show_data = day2.2_0_d_data_subscriber:main
-show_image = day2.2_0_b_image_subscriber:main
-

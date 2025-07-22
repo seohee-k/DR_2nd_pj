@@ -1,1 +1,0 @@
-/home/rokey/rokey3_E4_ws/src/my_package/setup.py

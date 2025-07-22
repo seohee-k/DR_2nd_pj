@@ -1,4 +1,0 @@
-source;share/yoloinference/environment/ament_prefix_path.sh
-source;share/yoloinference/environment/library_path.sh
-source;share/yoloinference/environment/path.sh
-source;share/yoloinference/environment/pythonpath.sh
